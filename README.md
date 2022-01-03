@@ -1,5 +1,6 @@
 # sfa-checker
 a little programm to check if a minecraft account is nfa or sfa 
+the combo is in the format email:password
 
 
 ### needed pips
