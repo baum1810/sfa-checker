@@ -19,6 +19,7 @@ while True:
                 print(username + ' failed to login!\nPress enter to exit.')
                 input()
             else:
+                #by https://github.com/baum1810/sfa-checker
                 data = response.json()
                 uuid = data['selectedProfile']['id']
                 token = data['accessToken']
